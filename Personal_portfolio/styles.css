@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     scroll-behavior: smooth;
+    width:100%;
 }
 :root{
     --main-white: #f0f0f0;
@@ -58,12 +59,12 @@ p{
   font-size:40px;
   color:var(--main-red);
   text-align: center;
-}
+}/*
 @media (max-width: 28.75em){
   .welcome-section{
     display:flex;
   }
-}
+}*/
 /*
 h2{
   
