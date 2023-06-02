@@ -11,8 +11,10 @@
   width:100%;
 } 
 form{
-margin:10%;
+margin:20%;
 margin-top: 2%;
+/* margin: 0 auto;
+width:40%; */
 }
 label{
   display: block;
@@ -40,3 +42,10 @@ font-weight: 100;
 #submit:hover {
   border: 3px solid #00d7c3;} 
   
+@media screen and (min-width:700px) {
+  form{
+    margin: 0 auto;
+width:40%;
+  }
+  
+}
